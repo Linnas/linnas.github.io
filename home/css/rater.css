@@ -1,0 +1,905 @@
+body {
+    overflow: auto;
+    background-color: white;
+    margin: 0;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 4%;
+    left: 1.5%;
+    width: 31.64%;
+    height: auto;
+}
+
+.logo2 {
+    position: absolute;
+    top: 4%;
+    right: 1.5%;
+    width: 12.3%;
+    height: auto;
+}
+
+.banner {
+    min-width: 1200px;
+    padding-bottom: 60px;
+}
+
+.bannerImg {
+    display: block;
+}
+
+.banner, .bannerImg, .banner2, .banner2Img, .titleBox {
+    width: 100%;
+    height: auto;
+}
+
+.banner2 {
+    position: relative;
+}
+
+.banner2Img {
+    min-width: 530px;
+    min-height: 378.5px;
+}
+
+.inputBox {
+    display: block;
+    width: 44.78%;
+    min-width: 530px;
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+}
+
+.raterForm {
+    top: 30%;
+    width: 55%;
+}
+
+.margin-left-90px {
+    margin-left: 90px !important;
+}
+
+.margin-top-5 {
+    margin-top: 5%;
+}
+
+.name {
+    width: 60px !important;
+    font-size: 18px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+}
+
+.putCenter {
+    margin: 0;
+    text-align: center;
+}
+
+.background-color-2e348b {
+    background-color: #2e348b !important;
+    font-size: 18px !important;
+    padding: 0 16.5% !important;
+}
+
+/* .width-60px {
+    width: 60px !important;
+} */
+
+.height-56px {
+    height: 56px !important;
+}
+
+/* .height-36px {
+    height: 36px !important;
+} */
+
+.font-size-18px {
+    font-size: 18px !important;
+}
+
+.border-width-2px {
+    border-width: 2px !important;
+}
+
+.layui-input {
+    height: 56px !important;
+    border-width: 2px !important;
+    font-size: 18px;
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color: #2e348b;
+}
+
+.layui-form-select dl {
+    min-height: 192px;
+}
+
+.layui-form-select .layui-edge {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+
+    cursor: pointer;
+
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    background-image: url(../img/shape.png);
+    width: 24px;
+    height: 12px;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.layui-form-select dl {
+    top: 55px;
+}
+
+.layui-form-selected .layui-edge {
+    margin-top: 0px;
+}
+
+.tabBox {
+    position: relative;
+    margin: 0 auto;
+    /* width: 63.672%;
+    min-width: 1000px; */
+    min-width: 1050px;
+    width: 75%;
+    height: auto;
+    text-align: center;
+    font-size: 0;
+    top: 0;
+}
+
+.tabBox p {
+    /* width: 165px; */
+    width: 11%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #cbdded;
+    color: rgb(51, 51, 51);
+    letter-spacing: 4px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 1.5%;
+    cursor: pointer;
+}
+
+.tab {
+    background-color: #2e348b !important;
+    color: white !important;
+}
+
+.titleCover {
+    width: 68.164%;
+    height: auto;
+    position: relative;
+    margin: 3% auto;
+    display: block;
+}
+
+.title2 {
+    width: 62.7%;
+    height: auto;
+    position: relative;
+    margin: 5% auto;
+    display: block;
+}
+
+.title6 {
+    width: 85%;
+    min-width: 1180px;
+    height: auto;
+    position: relative;
+    margin: 1% auto;
+}
+
+.title6 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title6 p {
+    color: rgb(102, 102, 102);
+    line-height: 2;
+    text-align: left;
+    font-size: 16px;
+    margin: 3% 0;
+    letter-spacing: 1.5px;
+}
+
+.title6Text {
+    width: 90%;
+    min-width: 1100px;
+}
+
+.title5 {
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 1% auto;
+}
+
+.title4 {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 4% auto 8% auto;
+    font-size: 0;
+    text-align: center;
+
+}
+
+.title4 a {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 0 2%;
+    vertical-align: top;
+}
+
+.title4 img {
+    width: auto;
+    height: 21.5vw;
+    min-height: 258px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#table1 {
+    width: 100%;
+    margin: 2% auto;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+#table1 thead {
+    background-color: #efeff4;
+}
+
+#table1 tbody tr:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+
+#table1 tr {
+    line-height: 4;
+}
+
+#table1 th {
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+}
+
+#table1 td {
+    font-size: 18px;
+    color: rgb(97, 97, 97);
+    line-height: 2;
+    padding: 1% 0;
+}
+
+#table1 td img {
+    width: 20px;
+    height: auto;
+    display: block;
+}
+
+#table1 td a {
+    margin-left: 3%;
+    color: rgb(97, 97, 97);
+    word-break: break-all;
+    text-align: left;
+}
+
+#table1 td p {
+    word-break: break-all;
+}
+
+.pdfTitle {
+    margin-left: 0% !important;
+}
+
+.title3 {
+    width: 90%;
+    min-width: 1200px;
+    position: relative;
+    margin: 2% auto;
+}
+
+.title3Img {
+    width: 85%;
+    min-width: 1100px;
+    height: auto;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.title3Img img {
+    width: 15%;
+    height: auto;
+    margin: 0 1.5%;
+}
+
+#table3 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#table3 th {
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 4;
+    color: rgb(69, 69, 69);
+}
+
+#table3 tbody {
+    border: 2px solid rgb(204, 204, 204);
+}
+
+#table3 tfoot td {
+    padding: 1% 0 0 1%;
+    color: rgb(72, 72, 72);
+    letter-spacing: 0.5px;
+}
+
+#table3 tfoot td p {
+    display: inline-block;
+    font-weight: 800;
+}
+
+.table3Tr1 td {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.5;
+    border-right: 1px solid rgb(204, 204, 204);
+    padding: 1% 0;
+    color: rgb(32, 32, 32);
+}
+
+.table3Tr3 {
+    font-size: 18px !important;
+    width: 80%;
+}
+
+.table3Tr4 {
+    width: 10%;
+}
+
+.table3Tr2 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+    border-right: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 1% 0;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.table3Td {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(72, 72, 72);
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 1.2% 2%;
+}
+
+.headBox, .headBox1 {
+    width: 100%;
+    margin: 2% 0;
+}
+
+.headBox2 {
+    width: 70%;
+    margin: 1% auto;
+    position: relative;
+}
+
+.headBox div {
+    width: auto;
+    margin: 0 auto;
+}
+
+.headBox1 div {
+    width: 25%;
+    margin: 5% auto 0 auto;
+}
+
+.headBox2 div {
+    width: 50%;
+    margin: 4% auto 0 auto;
+}
+
+.headBox2 img {
+    display: block;
+}
+
+.headBox p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(81, 81, 81);
+    line-height: 1.5;
+}
+
+.headBox1 p, .headBox2 p {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(81, 81, 81);
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.headName {
+    font-size: 18px !important;
+    font-weight: 800;
+    color: rgb(16, 16, 16) !important;
+    line-height: 2 !important;
+}
+
+.headName1 {
+    font-size: 22px !important;
+    font-weight: 800;
+    color: rgb(16, 16, 16) !important;
+    line-height: 2 !important;
+}
+
+.noMargin div {
+    margin: 5% 0 !important;
+}
+
+/* .headBox img {
+    max-width: 105px;
+    min-width: 55px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.headBox1 img {
+    max-width: 170px;
+    min-width: 90px;
+    width: 55%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+} */
+
+/* .headBox2 img {
+    max-width: 210px;
+    min-width: 120px;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+} */
+
+.head {
+    max-width: 105px;
+    min-width: 55px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+}
+
+.head1 {
+    max-width: 150px;
+    min-width: 90px;
+    width: 55%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+}
+
+.head2 {
+    max-width: 200px;
+    min-width: 120px;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+}
+
+.head2 img, .head1 img, .head img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+}
+
+.head2::after, .head1::after, .head::after {
+    position: absolute;
+    content: '';
+    background: -moz-linear-gradient( 125deg, rgb(153,231,255) 0%, rgb(255,174,203) 100%);
+    background: -webkit-linear-gradient( 125deg, rgb(153,231,255) 0%, rgb(255,174,203) 100%);
+    background: -webkit-linear-gradient( 325deg, rgb(153,231,255) 0%, rgb(255,174,203) 100%);
+    background: linear-gradient( 125deg, rgb(153,231,255) 0%, rgb(255,174,203) 100%);
+    background: -ms-linear-gradient( 125deg, rgb(153,231,255) 0%, rgb(255,174,203) 100%);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
+    border-radius: 50%;
+}
+
+.line1, .line3 {
+    top: 36%;
+    width: 16.04%;
+    height: auto;
+}
+
+.line1 {
+    left: 0;
+}
+.line2 {
+    top: 31%;
+    left: 50%;
+    width: 21.13%;
+    height: auto;
+}
+.line3 {
+    left: 100%;
+}
+
+.expertJudge {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.expertJudge img {
+    width: 26%;
+    height: auto;
+}
+
+.expertJudge1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.expertJudge1 img {
+    width: 9.2%;
+    height: auto;
+}
+
+.table1Tr1 {
+    width: 10%;
+}
+
+.table1Tr2 {
+    width: 40%;
+}
+
+.back {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px 0px 20px rgb(147, 147, 147);
+    text-align: center;
+    background-color: white;
+}
+
+.back a, .back div {
+    width: 120px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: #2e348b;
+    position: relative;
+    cursor: pointer;
+}
+
+.back p {
+    display: block;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.rankingBox {
+    width: 80%;
+    height: auto;
+    margin: 2% 10%;
+
+}
+
+.rankingBox a {
+    width: 12%;
+    min-width: 115px;
+    height: 45px;
+    display: block;
+    background-color: #cbdded;
+    color: rgb(51, 51, 51);
+
+}
+
+.rankingBox p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.current {
+    background-color: #2e348b !important;
+    color: white !important;
+}
+
+.scoreTitle {
+    width: 85%;
+    height: auto;
+    margin: 1% auto;
+    position: relative;
+}
+
+.score {
+    width: 30%;
+    position: relative;
+}
+
+.scoreImg {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.scoreImg img {
+    width: 100%;
+    height: auto;
+}
+
+.score p {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1;
+    color: white;
+    text-align: center;
+
+}
+
+#AScoreTable {
+    width: 50%;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+#AScoreTable th, #AScoreTable td {
+    padding: 2% 0;
+    word-break: break-all;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#AScoreTable th {
+    letter-spacing: 2px;
+    width: 33%;
+    padding: 0 0 0 3%;
+}
+
+#AScoreTable td {
+    color: rgb(51, 51, 51);
+}
+
+.frame {
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 4% auto 1% auto;
+}
+
+.frame img {
+    width: 100%;
+    height: auto;
+}
+
+.frameP1 {
+    font-size: 20px;
+    font-weight: 800;
+    top: 12%;
+    left: 3%;
+}
+
+.frameP2 {
+    width: 93%;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+    word-break: break-all;
+    text-align: left;
+    top: 25%;
+    left: 50%;
+    letter-spacing: 0.5px;
+}
+
+.viewScheme {
+    width: 120px;
+    height: 35px;
+    background-color: #2e348b;
+    cursor: pointer;
+    top: 70%;
+    left: 50%;
+}
+
+.viewScheme p {
+    display: block;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.tableMarking {
+    width: 90%;
+    margin: 1% auto;
+    border: 1px solid rgb(203, 221, 237);
+    background-color: rgb(227, 246, 254);
+    padding: 1% 0;
+}
+
+.tableMarking table {
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    border-collapse: collapse;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(51, 51, 51);
+    font-weight: 800;
+}
+
+.tableMarkingTr1 td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.tableMarking td {
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.tableMarkingTr1 p {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1% 0;
+}
+
+.border1 {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.noBorder {
+    border-right: 0 !important;
+}
+
+.padding1 {
+    padding: 1% 0 0 0 !important;
+}
+
+#marking {
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    font-weight: 800;
+}
+
+#marking::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.102);
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.remark {
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 2% auto;
+}
+
+.remarkText {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: rgba(0, 0, 0, 0.102);
+}
+
+.textareaBox {
+    width: 100%;
+    border: 1px solid rgb(203, 221, 237);
+    font-size: 0;
+}
+
+.textareaBox p {
+    width: 12%;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 1%;
+    font-weight: 800;
+}
+
+.textareaBox p, #textarea {
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+#textarea {
+    width: 87%;
+    border: 0;
+    resize: none;
+    word-break: break-all;
+    line-height: 1.5;
+    margin-top: 1%;
+}
+
+.buttonBox {
+    width: 52.5%;
+    position: relative;
+    margin: 2% 23.75%;
+
+}
+
+.buttonA {
+    width: 140px;
+    height: 35px;
+    background-color: #2e348b;
+    cursor: pointer;
+}
+
+.buttonA p {
+    display: block;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.backButtonA {
+
+    background-color: #e6e6e6 !important;
+}
+
+.backButtonA p {
+    color: rgb(101, 101, 101) !important;
+}
+
+
+/* :nth-child(2n + 1) */
